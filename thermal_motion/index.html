@@ -11,7 +11,10 @@
                 margin: 0;
                 padding: 0;
             }
-            #app {
+            main {
+                text-align: center;
+            }
+            #left-panel #right-panel {
                 display: block;
                 margin-left: auto;
                 margin-right: auto;
@@ -34,7 +37,8 @@
     </head>
     <body>
         <main>
-            <canvas id="app" width="1000" height="700"></canvas>
+            <canvas id="left-panel" width="500" height="700"></canvas
+            ><canvas id="right-panel" width="500" height="700"></canvas>
         </main>
         <script type="module" src="./bundle.js"></script>
     </body>
